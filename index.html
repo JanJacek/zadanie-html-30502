@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -16,35 +18,36 @@
         </ul>
     </nav>
     <section id="aboutUs">
-        <h1>O nas</h1>
+        <h2>O nas</h2>
         <p>przykładowy tekst</p>
     </section>
     <section id="skils">
-        <h1>Umiejętności</h1>
-        <div class="portfolio-item">obrazek1.jpg</div>
-        <div class="portfolio-item">obrazek2.jpg</div>
-        <div class="portfolio-item">obrazek3.jpg</div>
-        <div class="portfolio-item">obrazek4.jpg</div>
+        <h2>Umiejętności</h2>
+        <div class="skils">obrazek1.jpg</div>
+        <div class="skils">obrazek2.jpg</div>
+        <div class="skils">obrazek3.jpg</div>
+        <div class="skils">obrazek4.jpg</div>
     </section>
     <section id="portfolio">
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
         <div class="portfolio-item">obrazek5.jpg</div>
         <div class="portfolio-item">obrazek6.jpg</div>
         <div class="portfolio-item">obrazek7.jpg</div>
-        <div class="portfolio-item">obrazek8.jpg</div>   
-    </section>  
+        <div class="portfolio-item">obrazek8.jpg</div>
+    </section>
     <section id="contact">
-        <h1>Jan Kowalski</h1>
-        <addres>Niepodległości 11a</addres><br><br>
-        <form action="action_page.php">
+        <h2>Jan Kowalski</h2>
+        <address>Niepodległości 11a</address><br><br>
+        <form action="action_page.php" method="POST">
             <label for="firstname">Imię</label><br>
-            <input type="text" placeholder="wpisz imię"><br>
+            <input id="firstname" type="text" placeholder="wpisz imię"><br>
             <label for="topick">tutuł wiadomości</label><br>
-            <input type="text" placeholder="wpisz tytuł wiadomości"><br>
-            <label  for="messageContent">wiadomości</label><br>
-            <textarea pleaceholder="wpisz wiadomość" style="height:200px"></textarea></textaera><br>
-            <input type="submit" value="submit">   
+            <input id="topic" type="text" placeholder="wpisz tytuł wiadomości"><br>
+            <label for="messageContent">wiadomości</label><br>
+            <textarea id="messageContent" pleaceholder="wpisz wiadomość" style="height:200px"></textarea></textaera><br>
+            <input id=cosTam type="submit" value="submit">
         </form>
     </section>
 </body>
+
 </html>
